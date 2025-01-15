@@ -24,6 +24,23 @@ Per Keck Medicine, there are specific criteria for prescribing someone Ozempic o
 
 Ozempic is sometimes prescribed off-label for weight loss but is mostly used to treat people with diabetes, she says. 
 
+## What is included in this project?
+
+- Classification model to predict Ozempic qualification based on factors like BMI, blood pressure, cholesterol, smoking, alcohol use, and physical activity.
+- Advanced features created, including risk score and comorbidity flag, to optimize model accuracy.
+- Dataset balance improved with SMOTE and optimized RandomForest model using GridSearchCV.
+- Model predicts patients who qualify for Ozempic, identifying high-risk individuals in need of the drug.
+- GLP-1 Assessment Tool: Built a web app using Flask to predict Ozempic eligibility based on user inputs like BMI and age, incorporating logic to assess eligibility criteria and display results dynamically.
+
+## What Does the GLP-1 Assetment Tool Do?
+
+- Model Loading & Input: The Flask app loads a pre-trained machine learning model from a optimized_model.pkl file and collects health data (e.g., weight, age, blood pressure) from users.
+- Data Processing & Prediction: The app calculates BMI, risk scores, and other features, then uses the model to predict eligibility for Ozempic.
+- Results Display: Qualification results, including BMI and risk score, are displayed dynamically on the webpage.
+- Design: The form is designed with Tailwind CSS for a responsive and user-friendly layout.
+
+![Screenshot 2025-01-14 at 6 15 26 PM](https://github.com/user-attachments/assets/d4ed1a4b-15c2-4e17-bd5b-f0c831d2a2eb)
+
 ## Ozempic vs Wegovy[^2]?
 
 Both are semaglutide injections, but they vary in dosage. Wegovy has a slightly higher maximum dosage.  
