@@ -11,8 +11,6 @@ with open('optimized_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
-db_url = 'postgresql://francis:1234@localhost/Ozempic_ML'
-engine = create_engine(db_url)
 
 # List of columns used during training (updated columns after feature engineering)
 model_columns = [
