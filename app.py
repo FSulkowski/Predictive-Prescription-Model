@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import pickle
 import pandas as pd
-from sqlalchemy import create_engine
+
 
 
 app = Flask(__name__)
